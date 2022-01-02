@@ -12,3 +12,5 @@ console.log(solc.compile(source, 1));
 
 // export bytecode and interface 
 module.exports = solc.compile(source, 1).contracts[":Inbox"];
+
+
